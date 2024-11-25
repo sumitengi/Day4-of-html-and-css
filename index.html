@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="main">
+        <form autocomplete="off">
+            <div class="box">
+                <div class="left">
+                    <label for="user-name">Username</label>
+                </div>
+                <div class="right">
+                    <input type="text" id="user-name" name="user-name" minlength="5" maxlength="15" placeholder="Enter your name">
+                </div>
+            </div>
+            <div class="box">
+                <div class="left">
+                    <label for="email">Email</label>
+                </div>
+                <div class="right">
+                    <input type="email" id="email" name="email" required>
+                </div>
+            </div>
+            <div class="box">
+                <div class="left">
+                    <label for="password">Password</label>
+                </div>
+                <div class="right">
+                    <input type="password" id="password" name="password" required>
+                </div>
+            </div>
+            <div class="box" style="padding: 15px 10px;">
+                <div class="left">
+                    <label for="address">Address</label>
+                </div>
+                <div class="right">
+                    <textarea name="address" id="address"></textarea>
+                </div>
+            </div>
+            <div class="box">
+                <div class="left">
+                    <label for="phone-number">Phone number</label>
+                </div>
+                <div class="right">
+                    <input type="tel" id="phone-number" name="phone-number">
+                </div>
+            </div>
+            <div class="box">
+                <div class="left">
+                    <label for="age">Age</label>
+                </div>
+                <div class="right">
+                    <input type="number" id="age" name="age" min="18" max="25">
+                </div>
+            </div>
+            <div class="box">
+                <div class="left">
+                    <label>Gender</label>
+                </div>
+                <div class="right">
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label>
+                    <input type="radio" id="others" name="gender" value="others">
+                    <label for="others">Others</label>
+                </div>
+            </div>
+            <div class="box">
+                <div class="left">
+                    <label>Hobbies</label>
+                </div>
+                <div class="right">
+                    <input type="checkbox" id="cricket" name="hobbies" value="cricket" checked>
+                    <label for="cricket">Cricket</label>
+                    <input type="checkbox" id="football" name="hobbies" value="football">
+                    <label for="football">Football</label>
+                    <input type="checkbox" id="hockey" name="hobbies" value="hockey">
+                    <label for="hockey">Hockey</label>
+                </div>
+            </div>
+            <div class="box">
+                <div class="left">
+                    <label for="country">Select your country</label>
+                </div>
+                <div class="right">
+                    <select name="country" id="country" disabled>
+                        <optgroup label="Asia">
+                            <option value="india" selected>India</option>
+                            <option value="nepal">Nepal</option>
+                        </optgroup>
+                        <option value="America">United states</option>
+                    </select>
+                </div>
+            </div>
+            <div class="box">
+                <div class="left">
+                    <label for="dob">Dob</label>
+                </div>
+                <div class="right">
+                    <input type="date" id="dob" name="dob" min="2001-01-01" max="2025-01-01">
+                </div>
+            </div>
+            <div class="box">
+                <div class="left">
+                    <label for="month">Month</label>
+                </div>
+                <div class="right">
+                    <input type="month" id="month" name="month">
+                </div>
+            </div>
+            <div class="box">
+                <div class="left">
+                    <label for="week">Week</label>
+                </div>
+                <div class="right">
+                    <input type="week" id="week" name="week">
+                </div>
+            </div>
+            <div class="box">
+                <div class="left">
+                    <label for="range">Range</label>
+                </div>
+                <div class="right">
+                    <input type="range" id="range" name="range">
+                </div>
+            </div>
+            <div class="box">
+                <div class="left">
+                    <label for="color">Color</label>
+                </div>
+                <div class="right">
+                    <input type="color" id="color" name="color">
+                </div>
+            </div>
+            <div class="box">
+                <div class="left">
+                    <label for="file">File</label>
+                </div>
+                <div class="right">
+                    <input type="file" id="file" name="file">
+                </div>
+            </div>
+            <div class="box">
+               <input type="submit">
+               <input type="reset">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
